@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "accelerate>=0.26.0",
+    "fastapi[standard]>=0.128.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
     "nltk>=3.9.2",

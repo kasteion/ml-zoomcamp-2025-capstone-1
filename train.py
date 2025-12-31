@@ -30,8 +30,6 @@ training_args = TrainingArguments(
     logging_dir="./logs"
 )
 
-# Output File
-
 # Load data
 df = pd.read_csv('data/sentiment_analysis.csv')
 
