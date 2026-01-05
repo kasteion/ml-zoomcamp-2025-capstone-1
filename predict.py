@@ -13,8 +13,8 @@ model = AutoModelForSequenceClassification.from_pretrained("./sentiment_model")
 tokenizer = AutoTokenizer.from_pretrained("./sentiment_model")
 
 sentiment_map = {
-    0: 'Negative', 
-    1: 'Neutral', 
+    0: 'Negative',
+    1: 'Neutral',
     2: 'Positive'
 }
 
